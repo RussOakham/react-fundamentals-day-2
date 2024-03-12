@@ -1,0 +1,38 @@
+#root {
+  min-width: 500px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+ul {
+  padding: 0;
+
+  li {
+    margin: 0 1rem;
+    list-style: none;
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
